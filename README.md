@@ -1,6 +1,6 @@
 # DateAndTime
 
-Functions for manipulating Date and Time related stuff from Dyalog APL.
+Functions for manipulating Date and Time related stuff in Dyalog APL.
 
 
 ## Overview
@@ -22,8 +22,9 @@ Note that not all syntactically possible features are demonstrated by these exam
       ]ADOC #.DateAndTime
 ```
 
-| '''Result'''       | '''`⍺`'''                    | '''Function'''             | '''`⍵`'''      | |
-|<-5> '''Cast'''         |
+| **Result**       | **`⍺`**                    | **Function**             | **`⍵`**      | |
+|------------------------|----------------------------------|--------------------------------|--------------------|-|
+| **Cast**                                                                                                          |
 | 735965.058159722       |                                  | `DateTime2DayDecimal`          | 20160102.012345    | |
 | 20160102.012345        |                                  | `DayDecimal2DateTime`          | 735965.058159722   | |
 | 24193                  |                                  | `DateTime2Month`               | 20160102.058159722 | |
@@ -34,7 +35,7 @@ Note that not all syntactically possible features are demonstrated by these exam
 | 735965.058148148       |                                  | `Timestamp2DayDecimal`         | 2016 1 2 1 23 44   | |
 | 736329                 |                                  | `Date2GregorianSerialDate`     | 2016 12 31         | |
 | 2016 12 31             |                                  | `GregorianSerialDate2Date`     | 736329             | |
-|<-5> '''Week numbers''' |
+| **Week numbers**                                                                                                  |
 | 52                     |                                  | `WeekNo_ISO`                   | 2016 12 31         | |
 | 2016 12 26             |                                  | `DateFrom_Year_WeekNumberISO`  | 2016 52            | |
 | 2016 12 29             | 'Thursday'                       | `DateFrom_Year_WeekNumberISO`  | 2016 52            | |
@@ -42,14 +43,14 @@ Note that not all syntactically possible features are demonstrated by these exam
 | 2016 12 25             |                                  | `DateFrom_Year_WeekNumberUS`   | 2016 53            | |
 | 2016 12 29             | 'Thursday'                       | `DateFrom_Year_WeekNumberUS`   | 2016 53            | |
 | 2017 10 30 16 20 35 8  |                                  | `FileDate2Timestap`            | `2⊃⎕FRDCI ftn compNo`| |
-|<-5> '''Misc'''         |
+| **Misc**                                                                                                          |
 | 5                      |                                  | `DayOfWeekAsNumber`            | 2016 1 1           | |
 | 'Friday'               |                                  | `DayOfWeek`                    | 2016 1 1           | |
 | 20000423 20010415      |                                  | `Easter`                       | 2000 2001          | |
 | '2016-12-31 01:23:45'  |                                  | `FormatDateTime`               | 20161231.012345    | |
 | 1 1 0                  |                                  | `LeapYear`                     | 2000 2016 2100     | |
 | 60                     |                                  | `OrdinalNumber`                | 2016 2 29          | |
-|<-5> '''Math'''         |
+| **Math**                                                                                                          |
 | 20161231               | 0                                | `AddPeriod2DateTime`           | 20161231           |Add nothing |
 | 20181229               | 2                                | `AddPeriod2DateTime`           | 20161229           |Add a year |
 | 20160229               | 0 2                              | `AddPeriod2DateTime`           | 20151229           |Add a month |
