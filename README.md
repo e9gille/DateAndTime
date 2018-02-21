@@ -1,6 +1,8 @@
 # DateAndTime
 
-Functions for manipulating Date and Time related stuff in Dyalog APL.
+`DateAndTime` offers functions for manipulating Date and Time related stuff in Dyalog APL.
+
+`DateAndTime` is a member of the APLTree library. The library is a collection of classes etc. that aim to support the Dyalog APL programmer. Search GitHub for "apltree" and you will find solutions to many every-day problems Dyalog APL programmers might have to solve.
 
 
 ## Overview
