@@ -1,0 +1,25 @@
+{
+  "name": "dateandtime",
+  "version": "1.5.1",
+  "description": "DateAndTime offers functions for manipulating Date and Time related stuff in Dyalog APL.",
+  "files": [
+    "acreconfig.txt",
+    "APLSource/DateAndTime*"
+  ],
+  "main": "DateAndTime",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aplteam/DateAndTime.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "APL"
+  ],
+  "author": "Kai Jaeger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aplteam/DateAndTime/issues"
+  },
+  "homepage": "https://github.com/aplteam/DateAndTime#readme"
+}
